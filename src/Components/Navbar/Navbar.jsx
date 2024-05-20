@@ -1,7 +1,7 @@
 import React, { useContext, useRef, useState } from 'react'
 import './Navbar.css'
 import logo from '../Assets/logo.png'
-import cart_icon from '../Assets/cart_icon.png'
+// import cart_icon from '../Assets/cart_icon.png'
 import nav_dropdown from '../Assets/nav_dropdown.png'
 import { Link } from 'react-router-dom'
 import { ShopContext } from '../../Context/ShopContext'
@@ -28,7 +28,7 @@ const Navbar = () => {
         <li onClick={()=>{setMenu("shop")}}><Link to='/'>Inicio</Link>{menu==="shop"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("mens")}}><Link to='/mens'>Hombre</Link>{menu==="mens"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("womens")}}><Link to="womens">Mujer</Link>{menu==="womens"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("kids")}}><Link to='/kids'>Niños</Link>{menu==="kids"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("accessories")}}><Link to='/accessories'>Accesorios</Link>{menu==="accessories"?<hr/>:<></>}</li>
       </ul>
       {/* <div className="nav-login-cart">
         <Link to='/login'><button>Login</button></Link>

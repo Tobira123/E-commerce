@@ -295,7 +295,7 @@ let all_product = [
   {
     id: 25,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    category: "accessories",
     image: p25_img,
     additionalImages: [], // Array vacío
     new_price: 85.0,
@@ -304,103 +304,103 @@ let all_product = [
   {
     id: 26,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    category: "accessories",
     image: p26_img,
     additionalImages: [], // Array vacío
     new_price: 85.0,
     old_price: 120.5,
-  },
-  {
+},
+{
     id: 27,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    category: "accessories",
     image: p27_img,
     additionalImages: [], // Array vacío
     new_price: 85.0,
     old_price: 120.5,
-  },
-  {
+},
+{
     id: 28,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    category: "accessories",
     image: p28_img,
     additionalImages: [], // Array vacío
     new_price: 85.0,
     old_price: 120.5,
-  },
-  {
+},
+{
     id: 29,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    category: "accessories",
     image: p29_img,
     additionalImages: [], // Array vacío
     new_price: 85.0,
     old_price: 120.5,
-  },
+},
+{
+    id: 30,
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    category: "accessories",
+    image: p30_img,
+    additionalImages: [], // Array vacío
+    new_price: 85.0,
+    old_price: 120.5,
+},
+{
+    id: 31,
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    category: "accessories",
+    image: p31_img,
+    additionalImages: [], // Array vacío
+    new_price: 85.0,
+    old_price: 120.5,
+},
+{
+    id: 32,
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    category: "accessories",
+    image: p32_img,
+    additionalImages: [], // Array vacío
+    new_price: 85.0,
+    old_price: 120.5,
+},
+{
+    id: 33,
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    category: "accessories",
+    image: p33_img,
+    additionalImages: [], // Array vacío
+    new_price: 85.0,
+    old_price: 120.5,
+},
+{
+    id: 34,
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    category: "accessories",
+    image: p34_img,
+    additionalImages: [], // Array vacío
+    new_price: 85.0,
+    old_price: 120.5,
+},
+{
+    id: 35,
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    category: "accessories",
+    image: p35_img,
+    additionalImages: [], // Array vacío
+    new_price: 85.0,
+    old_price: 120.5,
+},
+{
+    id: 36,
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    category: "accessories",
+    image: p36_img,
+    additionalImages: [], // Array vacío
+    new_price: 85.0,
+    old_price: 120.5,
+},
 
-  {
-      id: 30,
-      name: "Boys Orange Colourblocked Hooded Sweatshirt",
-      category: "kid",
-      image: p30_img,
-      additionalImages: [], // Array vacío
-      new_price: 85.0,
-      old_price: 120.5,
-    },
-    {
-      id: 31,
-      name: "Boys Orange Colourblocked Hooded Sweatshirt",
-      category: "kid",
-      image: p31_img,
-      additionalImages: [], // Array vacío
-      new_price: 85.0,
-      old_price: 120.5,
-    },
-    {
-      id: 32,
-      name: "Boys Orange Colourblocked Hooded Sweatshirt",
-      category: "kid",
-      image: p32_img,
-      additionalImages: [], // Array vacío
-      new_price: 85.0,
-      old_price: 120.5,
-    },
-    {
-      id: 33,
-      name: "Boys Orange Colourblocked Hooded Sweatshirt",
-      category: "kid",
-      image: p33_img,
-      additionalImages: [], // Array vacío
-      new_price: 85.0,
-      old_price: 120.5,
-    },
-    {
-      id: 34,
-      name: "Boys Orange Colourblocked Hooded Sweatshirt",
-      category: "kid",
-      image: p34_img,
-      additionalImages: [], // Array vacío
-      new_price: 85.0,
-      old_price: 120.5,
-    },
-    {
-      id: 35,
-      name: "Boys Orange Colourblocked Hooded Sweatshirt",
-      category: "kid",
-      image: p35_img,
-      additionalImages: [], // Array vacío
-      new_price: 85.0,
-      old_price: 120.5,
-    },
-    {
-      id: 36,
-      name: "Boys Orange Colourblocked Hooded Sweatshirt",
-      category: "kid",
-      image: p36_img,
-      additionalImages: [], // Array vacío
-      new_price: 85.0,
-      old_price: 120.5,
-    },
   ];
   
   export default all_product;
