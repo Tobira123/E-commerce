@@ -44,11 +44,11 @@ const ProductDisplay = (props) => {
                     <p>(122)</p>
                 </div>
                 <div className="productdisplay-right-prices">
-                    <div className="productdisplay-right-price-old">${product.old_price}</div>
-                    <div className="productdisplay-right-price-new">${product.new_price}</div>
+                    <div className="productdisplay-right-price-old">{product.old_price}</div>
+                    <div className="productdisplay-right-price-new">{product.new_price}</div>
                 </div>
                 <div className="productdisplay-right-description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet hic unde provident, voluptas maiores nihil numquam laborum minus obcaecati modi repudiandae blanditiis repellat nam saepe nulla officiis dignissimos eius? Natus!
+                     {product.description}                
                 </div>
                 {/* <div className="productdisplay-right-size">
                     <h1>Tallas disponibles</h1>

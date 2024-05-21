@@ -84,8 +84,9 @@ let all_product = [
     category: "women",
     image: p1_img,
     additionalImages: [ p1_img_2,p1_img_3], // Imágenes adicionales
-    new_price: 1720.0,
-    old_price: 2000.0,
+    new_price: "$ 1720.0",
+    old_price: "$ 2000.0",
+    description: "Un perfume elegante y sofisticado para damas, perfecto para cualquier ocasión."
   },
   {
     id: 2,
@@ -93,8 +94,9 @@ let all_product = [
     category: "women",
     image: p2_img,
     additionalImages: [p2_img_1,p2_img_2,p2_img_3,p2_img_4], // Array vacío
-    new_price: 120.0,
-    old_price: 150.0,
+    new_price: "$ 120",
+    old_price: "$ 150.0",
+    description: "Para estos calurosos días, unos abanícos preciosos en diferentes modelos."
   },
   {
     id: 3,
@@ -102,8 +104,9 @@ let all_product = [
     category: "women",
     image: p3_img,
     additionalImages: [p3_img_1, p3_img_2, p3_img_3, p3_img_4], // Array vacío
-    new_price: 120.0,
-    old_price: 150.0,
+    new_price: "$ 120",
+    old_price: "$ 150",
+    description: "Versátiles y elegantes, perfectos para cualquier ocasión."
   },
   {
     id: 4,
@@ -111,8 +114,9 @@ let all_product = [
     category: "women",
     image: p4_img,
     additionalImages: [p4_img_1, p4_img_2 , p4_img_3, p4_img_4  ], // Array vacío
-    new_price: 120.0,
-    old_price: 150.0,
+    new_price: "$ 120",
+    old_price: "$ 150",
+    description: "Diseños modernos y prácticos para tu día a día."
   },
   {
     id: 5,
@@ -120,8 +124,9 @@ let all_product = [
     category: "women",
     image: p5_img,
     additionalImages: [p5_img_1, p5_img_2, p5_img_3, p5_img_4], // Array vacío
-    new_price: 120.0,
-    old_price: 150.0,
+    new_price: "$ 120",
+    old_price: "$ 150.0",
+    description: "Estilo y funcionalidad combinados en un solo accesorio."
   },
   {
     id: 6,
@@ -129,8 +134,9 @@ let all_product = [
     category: "women",
     image: p6_img,
     additionalImages: [p6_img_1, p6_img_2, p6_img_3, p6_img_4], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: "El precio varia dependiendo del producto",
+    // old_price: 120.5,
+    description: "Varios bolsos de diferentes tamaños y una maleta, perfectos para cualquier ocasión."
   },
   {
     id: 7,
@@ -138,8 +144,9 @@ let all_product = [
     category: "women",
     image: p7_img,
     additionalImages: [p7_img_1, p7_img_2, p7_img_3], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: "El precio varia dependiendo del producto",
+    // old_price: 120.5,
+    description: "Elegantes bolsos de varios colores para complementar cualquier atuendo."
   },
   {
     id: 8,
@@ -147,8 +154,9 @@ let all_product = [
     category: "women",
     image: p8_img,
     additionalImages: [p8_img_1, p8_img_2, p8_img_3], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: "El precio varia dependiendo del producto",
+    // old_price: 120.5,
+    description: "Carteras prácticas y coloridas, ideales para organizar tus pertenencias."
   },
 
   {
@@ -157,8 +165,9 @@ let all_product = [
     category: "women",
     image: p9_img,
     additionalImages: [p9_img_1], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: "$ 1600",
+    // old_price: 120.5,
+    description: "Perfume MONTBLANC individual, una fragancia sofisticada para mujeres elegantes."
   },
   // {
   //   id: 9,
