@@ -45,8 +45,10 @@ import p8_img_1 from "./product_8_1.png";
 import p8_img_2 from "./product_8_2.png";
 import p8_img_3 from "./product_8_3.png";
 
-
 import p9_img from "./product_9.png";
+import p9_img_1 from "./product_9_1.png";
+
+
 import p10_img from "./product_10.png";
 import p11_img from "./product_11.png";
 import p12_img from "./product_12.png";
@@ -82,8 +84,8 @@ let all_product = [
     category: "women",
     image: p1_img,
     additionalImages: [ p1_img_2,p1_img_3], // Imágenes adicionales
-    new_price: 50.0,
-    old_price: 80.5,
+    new_price: 1720.0,
+    old_price: 2000.0,
   },
   {
     id: 2,
@@ -91,8 +93,8 @@ let all_product = [
     category: "women",
     image: p2_img,
     additionalImages: [p2_img_1,p2_img_2,p2_img_3,p2_img_4], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 120.0,
+    old_price: 150.0,
   },
   {
     id: 3,
@@ -100,8 +102,8 @@ let all_product = [
     category: "women",
     image: p3_img,
     additionalImages: [p3_img_1, p3_img_2, p3_img_3, p3_img_4], // Array vacío
-    new_price: 60.0,
-    old_price: 100.5,
+    new_price: 120.0,
+    old_price: 150.0,
   },
   {
     id: 4,
@@ -109,7 +111,7 @@ let all_product = [
     category: "women",
     image: p4_img,
     additionalImages: [p4_img_1, p4_img_2 , p4_img_3, p4_img_4  ], // Array vacío
-    new_price: 100.0,
+    new_price: 120.0,
     old_price: 150.0,
   },
   {
@@ -118,8 +120,8 @@ let all_product = [
     category: "women",
     image: p5_img,
     additionalImages: [p5_img_1, p5_img_2, p5_img_3, p5_img_4], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 120.0,
+    old_price: 150.0,
   },
   {
     id: 6,
@@ -145,6 +147,16 @@ let all_product = [
     category: "women",
     image: p8_img,
     additionalImages: [p8_img_1, p8_img_2, p8_img_3], // Array vacío
+    new_price: 85.0,
+    old_price: 120.5,
+  },
+
+  {
+    id: 9,
+    name: "Perfume MONTBLANC individual",
+    category: "women",
+    image: p9_img,
+    additionalImages: [p9_img_1], // Array vacío
     new_price: 85.0,
     old_price: 120.5,
   },
