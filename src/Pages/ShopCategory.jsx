@@ -1,10 +1,26 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import './CSS/ShopCategory.css';
 import { ShopContext } from '../Context/ShopContext';
 import dropdown_icon from '../Components/Assets/dropdown_icon.png';
 import Item from '../Components/Item/Item';
+import ScrollReveal from 'scrollreveal';
 
 const ShopCategory = (props) => {
+
+  useEffect(() => {
+    ScrollReveal().reveal('.shopcategory-banner',{
+      origin: 'top',
+      distance: '50px',
+      duration: 1000,
+      delay: 200,
+      easing: 'ease-in-out',
+      reset: true,
+      viewFactor: 0.2
+    });
+  }, []);
+
+
+
   const { all_product } = useContext(ShopContext);
   const [visibleProducts, setVisibleProducts] = useState(8); // Inicialmente mostramos 8 productos
 

@@ -184,222 +184,222 @@ let all_product = [
   //   new_price: 85.0,
   //   old_price: 120.5,
   // },
-  {
-    id: 13,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
-    image: p13_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 14,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
-    image: p14_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 15,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
-    image: p15_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 16,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
-    image: p16_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 17,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
-    image: p17_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 18,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
-    image: p18_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 19,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
-    image: p19_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 20,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
-    image: p20_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 21,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
-    image: p21_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 22,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
-    image: p22_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 23,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
-    image: p23_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 24,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
-    image: p24_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 25,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "accessories",
-    image: p25_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 26,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "accessories",
-    image: p26_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-},
-{
-    id: 27,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "accessories",
-    image: p27_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-},
-{
-    id: 28,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "accessories",
-    image: p28_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-},
-{
-    id: 29,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "accessories",
-    image: p29_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-},
-{
-    id: 30,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "accessories",
-    image: p30_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-},
-{
-    id: 31,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "accessories",
-    image: p31_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-},
-{
-    id: 32,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "accessories",
-    image: p32_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-},
-{
-    id: 33,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "accessories",
-    image: p33_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-},
-{
-    id: 34,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "accessories",
-    image: p34_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-},
-{
-    id: 35,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "accessories",
-    image: p35_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-},
-{
-    id: 36,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "accessories",
-    image: p36_img,
-    additionalImages: [], // Array vacío
-    new_price: 85.0,
-    old_price: 120.5,
-},
+//   {
+//     id: 13,
+//     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+//     category: "men",
+//     image: p13_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+//   },
+//   {
+//     id: 14,
+//     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+//     category: "men",
+//     image: p14_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+//   },
+//   {
+//     id: 15,
+//     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+//     category: "men",
+//     image: p15_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+//   },
+//   {
+//     id: 16,
+//     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+//     category: "men",
+//     image: p16_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+//   },
+//   {
+//     id: 17,
+//     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+//     category: "men",
+//     image: p17_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+//   },
+//   {
+//     id: 18,
+//     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+//     category: "men",
+//     image: p18_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+//   },
+//   {
+//     id: 19,
+//     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+//     category: "men",
+//     image: p19_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+//   },
+//   {
+//     id: 20,
+//     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+//     category: "men",
+//     image: p20_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+//   },
+//   {
+//     id: 21,
+//     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+//     category: "men",
+//     image: p21_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+//   },
+//   {
+//     id: 22,
+//     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+//     category: "men",
+//     image: p22_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+//   },
+//   {
+//     id: 23,
+//     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+//     category: "men",
+//     image: p23_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+//   },
+//   {
+//     id: 24,
+//     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+//     category: "men",
+//     image: p24_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+//   },
+//   {
+//     id: 25,
+//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
+//     category: "accessories",
+//     image: p25_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+//   },
+//   {
+//     id: 26,
+//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
+//     category: "accessories",
+//     image: p26_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+// },
+// {
+//     id: 27,
+//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
+//     category: "accessories",
+//     image: p27_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+// },
+// {
+//     id: 28,
+//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
+//     category: "accessories",
+//     image: p28_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+// },
+// {
+//     id: 29,
+//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
+//     category: "accessories",
+//     image: p29_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+// },
+// {
+//     id: 30,
+//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
+//     category: "accessories",
+//     image: p30_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+// },
+// {
+//     id: 31,
+//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
+//     category: "accessories",
+//     image: p31_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+// },
+// {
+//     id: 32,
+//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
+//     category: "accessories",
+//     image: p32_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+// },
+// {
+//     id: 33,
+//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
+//     category: "accessories",
+//     image: p33_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+// },
+// {
+//     id: 34,
+//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
+//     category: "accessories",
+//     image: p34_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+// },
+// {
+//     id: 35,
+//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
+//     category: "accessories",
+//     image: p35_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+// },
+// {
+//     id: 36,
+//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
+//     category: "accessories",
+//     image: p36_img,
+//     additionalImages: [], // Array vacío
+//     new_price: 85.0,
+//     old_price: 120.5,
+// },
 
   ];
   

@@ -19,16 +19,19 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <Link to='/' onClick={()=>{setMenu("shop")}} className="nav-logo">
+      
+      {/* <div to='/' onClick={()=>{setMenu("shop")}} className="nav-logo"></div> */}
+
+      <div className="nav-logo" div>  
         <img src={logo} alt="" />
         <p>De todo un un poquito</p>
-      </Link>
-      <img onClick={dropdown_toggle} className='nav-dropdown' src={nav_dropdown} alt="" />
+      </div>
+      {/* <img onClick={dropdown_toggle} className='nav-dropdown' src={nav_dropdown} alt="" /> */}
       <ul ref={menuRef} className="nav-menu">
-        <li onClick={()=>{setMenu("shop")}}><Link to='/'>Inicio</Link>{menu==="shop"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("mens")}}><Link to='/mens'>Hombre</Link>{menu==="mens"?<hr/>:<></>}</li>
+        {/* <li onClick={()=>{setMenu("shop")}}><Link to='/'>Inicio</Link>{menu==="shop"?<hr/>:<></>}</li> */}
+        {/* <li onClick={()=>{setMenu("mens")}}><Link to='/mens'>Hombre</Link>{menu==="mens"?<hr/>:<></>}</li> */}
         <li onClick={()=>{setMenu("womens")}}><Link to="womens">Mujer</Link>{menu==="womens"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("accessories")}}><Link to='/accessories'>Accesorios</Link>{menu==="accessories"?<hr/>:<></>}</li>
+        {/* <li onClick={()=>{setMenu("accessories")}}><Link to='/accessories'>Accesorios</Link>{menu==="accessories"?<hr/>:<></>}</li> */}
       </ul>
       {/* <div className="nav-login-cart">
         <Link to='/login'><button>Login</button></Link>
