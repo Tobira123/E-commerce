@@ -86,88 +86,93 @@ let all_product = [
     additionalImages: [ p1_img_2,p1_img_3], // Imágenes adicionales
     new_price: "$ 1720.0",
     old_price: "$ 2000.0",
-    description: "Un perfume elegante y sofisticado para damas, perfecto para cualquier ocasión."
+    description:"",
+    full_description: "Este perfume de MONTBLANC es perfecto para damas que buscan un toque de elegancia y sofisticación. Con notas florales y afrutadas, es ideal para cualquier evento, ya sea formal o casual."
+
   },
   {
     id: 2,
     name: "Hermosos abanícos de diferentes modelos",
     category: "women",
     image: p2_img,
-    additionalImages: [p2_img_1,p2_img_2,p2_img_3,p2_img_4], // Array vacío
+    additionalImages: [p2_img_1, p2_img_2, p2_img_3, p2_img_4], // Imágenes adicionales
     new_price: "$ 120",
     old_price: "$ 150.0",
-    description: "Para estos calurosos días, unos abanícos preciosos en diferentes modelos."
+    description: "",
+    full_description: "Para estos calurosos días, unos abanícos preciosos en diferentes modelos. Perfectos para mantenerte fresco y elegante, con una variedad de diseños para cada estilo."
   },
   {
     id: 3,
     name: "Hermosos abanícos de diferentes modelos",
     category: "women",
     image: p3_img,
-    additionalImages: [p3_img_1, p3_img_2, p3_img_3, p3_img_4], // Array vacío
+    additionalImages: [p3_img_1, p3_img_2, p3_img_3, p3_img_4], // Imágenes adicionales
     new_price: "$ 120",
     old_price: "$ 150",
-    description: "Versátiles y elegantes, perfectos para cualquier ocasión."
+    description: "",
+    full_description: "Versátiles y elegantes, estos abanícos son perfectos para cualquier ocasión. Disponibles en varios modelos, combinan practicidad y estilo."
   },
   {
     id: 4,
     name: "Hermosos abanícos de diferentes modelos",
     category: "women",
     image: p4_img,
-    additionalImages: [p4_img_1, p4_img_2 , p4_img_3, p4_img_4  ], // Array vacío
+    additionalImages: [p4_img_1, p4_img_2, p4_img_3, p4_img_4], // Imágenes adicionales
     new_price: "$ 120",
     old_price: "$ 150",
-    description: "Diseños modernos y prácticos para tu día a día."
+    description: "",
+    full_description: "Diseños modernos y prácticos para tu día a día. Estos abanícos ofrecen una solución elegante para mantener la frescura mientras complementan tu atuendo."
   },
   {
     id: 5,
     name: "Hermosos abanícos de diferentes modelos",
     category: "women",
     image: p5_img,
-    additionalImages: [p5_img_1, p5_img_2, p5_img_3, p5_img_4], // Array vacío
+    additionalImages: [p5_img_1, p5_img_2, p5_img_3, p5_img_4], // Imágenes adicionales
     new_price: "$ 120",
     old_price: "$ 150.0",
-    description: "Estilo y funcionalidad combinados en un solo accesorio."
+    description: "",
+    full_description: "Estilo y funcionalidad combinados en un solo accesorio. Estos abanícos de diferentes modelos son la elección perfecta para cualquier evento."
   },
   {
     id: 6,
     name: "Bolsos de diferentes tamaños",
     category: "women",
     image: p6_img,
-    additionalImages: [p6_img_1, p6_img_2, p6_img_3, p6_img_4], // Array vacío
+    additionalImages: [p6_img_1, p6_img_2, p6_img_3, p6_img_4], // Imágenes adicionales
     new_price: "El precio varia dependiendo del producto",
-    // old_price: 120.5,
-    description: "Varios bolsos de diferentes tamaños y una maleta, perfectos para cualquier ocasión."
+    description: "",
+    full_description: "Varios bolsos de diferentes tamaños y una maleta, perfectos para cualquier ocasión. Desde un día casual hasta un evento especial, estos bolsos ofrecen la combinación perfecta de estilo y funcionalidad."
   },
   {
     id: 7,
     name: "Bolsos de varios colores",
     category: "women",
     image: p7_img,
-    additionalImages: [p7_img_1, p7_img_2, p7_img_3], // Array vacío
+    additionalImages: [p7_img_1, p7_img_2, p7_img_3], // Imágenes adicionales
     new_price: "El precio varia dependiendo del producto",
-    // old_price: 120.5,
-    description: "Elegantes bolsos de varios colores para complementar cualquier atuendo."
+    description: "",
+    full_description: "Elegantes bolsos de varios colores para complementar cualquier atuendo. Estos bolsos son perfectos para añadir un toque de color y estilo a tu guardarropa."
   },
   {
     id: 8,
     name: "Carteras de varios tamaños y colores",
     category: "women",
     image: p8_img,
-    additionalImages: [p8_img_1, p8_img_2, p8_img_3], // Array vacío
+    additionalImages: [p8_img_1, p8_img_2, p8_img_3], // Imágenes adicionales
     new_price: "El precio varia dependiendo del producto",
-    // old_price: 120.5,
-    description: "Carteras prácticas y coloridas, ideales para organizar tus pertenencias."
+    description: "",
+    full_description: "Carteras prácticas y coloridas, ideales para organizar tus pertenencias. Disponibles en varios tamaños y colores, estas carteras son una mezcla perfecta de estilo y funcionalidad."
   },
-
   {
     id: 9,
     name: "Perfume MONTBLANC individual",
     category: "women",
     image: p9_img,
-    additionalImages: [p9_img_1], // Array vacío
+    additionalImages: [p9_img_1], // Imágenes adicionales
     new_price: "$ 1600",
-    // old_price: 120.5,
-    description: "Perfume MONTBLANC individual, una fragancia sofisticada para mujeres elegantes."
+    description: "",
+    full_description: "Perfume MONTBLANC individual, una fragancia sofisticada para mujeres elegantes. Perfecto para quienes buscan un aroma distintivo y duradero."
   },
   // {
   //   id: 9,

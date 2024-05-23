@@ -1,17 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Item.css';
 import { Link } from 'react-router-dom';
 import LazyLoad from 'react-lazyload';
 
 const Item = (props) => {
-  // Log para verificar la actualización de props
-  useEffect(() => {
-    console.log(`Cargando producto ${props.id} con imagen ${props.image}`);
-  }, [props.id, props.image]);
-
   return (
     <div className='item'>
-      <LazyLoad height={200} offset={100} once placeholder={<div>Cargando...</div>}>
+      <LazyLoad height={200} offset={100} once>
         <Link to={`/product/${props.id}`}>
           <img onClick={() => window.scrollTo(0, 0)} src={props.image} alt={props.name} loading="lazy" />
         </Link>
@@ -30,5 +25,6 @@ const Item = (props) => {
 }
 
 export default Item;
+
 
 

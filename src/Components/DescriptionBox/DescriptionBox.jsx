@@ -1,21 +1,29 @@
-import React from 'react'
-import './DescriptionBox.css'
+// DescriptionBox.js
+import React from 'react';
+import './DescriptionBox.css';
 
-const DescriptionBox = () => {
+const DescriptionBox = ({ description }) => {
   return (
-    <div className='descriptionbox'>
-      <div className="descriptionbox-navigator">
-        <div className="descriptionbox-nav-box">Descripción</div>
+    <div>
+      
+        {/* <div className="descriptionbox-nav-box">
+          Descripción
+          </div> */}
         {/* <div className="descriptionbox-nav-box fade">Reviews (122)</div> */}
-      </div>
-      <div className="descriptionbox-description">
-        <p></p>
-          <p>
-          
-          </p>
+      
+      <div className="descriptionbox-description description-nav-box" >
+        <p>{description}</p>
       </div>
     </div>
-  )
+  );
 }
 
-export default DescriptionBox
+export default DescriptionBox;
+
+
+
+
+
+
+
+

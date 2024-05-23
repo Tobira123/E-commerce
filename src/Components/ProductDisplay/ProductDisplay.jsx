@@ -1,12 +1,12 @@
-import React, { useContext, useState } from 'react';
+// ProductDisplay.js
+import React, { useState } from 'react';
 import './ProductDisplay.css';
 import star_icon from "../Assets/star_icon.png";
 import star_dull_icon from "../Assets/star_dull_icon.png";
-import { ShopContext } from '../../Context/ShopContext';
+import DescriptionBox from '../DescriptionBox/DescriptionBox'; // Asegúrate de que la ruta es correcta
 
 const ProductDisplay = (props) => {
     const { product } = props;
-    const { addToCart } = useContext(ShopContext);
     const [mainImage, setMainImage] = useState(product.image); // Estado para la imagen principal
 
     return (
@@ -48,22 +48,16 @@ const ProductDisplay = (props) => {
                     <div className="productdisplay-right-price-new">{product.new_price}</div>
                 </div>
                 <div className="productdisplay-right-description">
-                     {product.description}                
+                    {product.description}
                 </div>
-                {/* <div className="productdisplay-right-size">
-                    <h1>Tallas disponibles</h1>
-                    <div className="productdisplay-right-sizes">
-                        <div>S</div>
-                        <div>M</div>
-                        <div>L</div>
-                    </div>
-                </div> */}
-                {/* <button onClick={() => { addToCart(product.id) }}>AGREGAR AL CARRITO</button> */}
+                <DescriptionBox description={product.full_description} />
             </div>
         </div>
     );
 }
 
 export default ProductDisplay;
+
+
 
 

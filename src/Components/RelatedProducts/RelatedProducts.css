@@ -1,22 +1,25 @@
-.relatedproducts{
+.relatedproducts {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     padding: 10px 0 100px;
 }
-.relatedproducts h1{
+
+.relatedproducts h1 {
     color: #171717;
     font-size: 40px;
     font-weight: 600;
 }
-.relatedproducts hr{
+
+.relatedproducts hr {
     width: 150px;
-    height: 4px;
+    height: 40px;
     border-radius: 10px;
     background: #252525;
 }
-.relatedproducts-item{
+
+.relatedproducts-item {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -24,6 +27,56 @@
     gap: 30px;
     max-width: 1280px;
 }
+
+/* Estilos específicos para los productos relacionados */
+.relatedproducts-item .related-item {
+    width: 30%; /* Ajusta el porcentaje según el tamaño deseado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Ajusta el padding según sea necesario */
+    transition: transform 0.6s;
+}
+
+.relatedproducts-item .related-item img {
+    width: 150%;
+    height: auto;
+    max-height: 300px; /* Ajusta este valor según el tamaño deseado */
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.relatedproducts-item .related-item p {
+    margin: 6px 0px;
+    font-size: 16px;
+    color: #333;
+}
+
+.relatedproducts-item .related-item-prices {
+    display: flex;
+    gap: 15px;
+}
+
+.relatedproducts-item .related-item-price-new {
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.relatedproducts-item .related-item-price-old {
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.relatedproducts-item .related-item:hover {
+    transform: scale(1.05);
+}
+
+
 
 
 @media(max-width:600px){

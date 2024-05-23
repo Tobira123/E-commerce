@@ -13,6 +13,7 @@ import women_banner from './Components/Assets/banner_women.png'
 import accessories_banner from './Components/Assets/banner_accessories.png'
 import WhatsAppButton from './Components/WhatsAppButton/WhatsAppButton';
 
+
 function App() {
   return (
     <div>
@@ -24,7 +25,7 @@ function App() {
         <Route path='/' element={<ShopCategory banner={women_banner} category="women"/>}/>
         <Route path='/accessories' element={<ShopCategory banner={accessories_banner} category="accessories"/>}/>
         <Route path="/product" element={<Product/>}>
-          <Route path=':productId' element={<Product/>}/>
+        <Route path=':productId' element={<Product/>}/> 
         </Route>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/login' element={<LoginSignup/>}/>
